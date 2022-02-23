@@ -1,0 +1,79 @@
+body{
+  background: #07575B;
+  margin: 0px;
+  display: block;
+}
+
+c-accordion{
+  margin-top: 15px;
+  display: block;
+}
+
+.roof{
+  background: #003B46;
+  padding-left: 12%;
+  height: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-size: 50px;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #C4DFE6;
+  font-family: Arial;
+}
+
+a:hover {
+  color: white;
+}
+
+.contacts{
+  display: grid;
+  font-family: Arial;
+  font-size: 25px;
+  margin-right: 20%;
+  color: #001a36;
+  grid-template-columns: 40% auto;
+  grid-template-rows: auto auto auto auto;
+}
+
+.img{
+  height: 90%;
+  width: 60%;
+  margin: 15px;
+  margin-left: 15%;
+}
+
+.mail{
+  font-size: 35px;
+  margin: 15px;
+  margin-right: 50%;
+  border-radius: 12px;
+}
+
+.mail:hover{
+  border: 3px solid #C4DFE6;
+}
+
+.text{
+  font-family: Arial;
+  font-size: 25px;
+  color: #C4DFE6;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.textName{
+  font-family: Arial;
+  font-size: 50px;
+  color: #C4DFE6;
+  margin-right: 45%;
+  margin-left: 45%;
+  margin-top: 2%;
+}
